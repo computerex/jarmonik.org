@@ -11,7 +11,7 @@ render = true
 <h2><small>Updated 24.12.2019</small> </h2>
 This is MFD addon for <a href="https://web.archive.org/web/20220521025709/http://orbit.medphys.ucl.ac.uk/"> Orbiter space flight simulator</a> version 2010, 2016
 <p>
-LunarTransferMFD is aa numerical lunar transfer trajectory calculator. It can be used
+LunarTransferMFD is a numerical lunar transfer trajectory calculator. It can be used
 to compute single impulse lunar transfer trajectories with better accuracy than
 typical patched conic applications such as IMFD. LunarTransferMFD is based on Broyden's
 method with numerical forward trajectory model (RKF56). Typical user input parameters are
