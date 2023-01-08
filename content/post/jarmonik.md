@@ -20,4 +20,4 @@ to serve the static site locally:
 go run serve.go
 ```
 
-hopefully this is helpful
+hopefully this is helpful.
