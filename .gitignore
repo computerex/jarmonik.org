@@ -1,0 +1,8 @@
+*.swp
+*.swo
+node_modules
+env
+venv
+public
+.vscode/settings.json
+.DS_Store

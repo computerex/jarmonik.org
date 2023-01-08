@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - {{ subtitle }}</title>
+    <meta charset="UTF-8">
+    <style type="text/css">body{margin:40px
+        auto;max-width:800px;line-height:1.6;background-color: white;font-family: sans-serif;
+        color: black;padding:0 10px}
+        a,b,h1,h2,h3{color: #6c91a3;}
+        h1,h2,h3{line-height:1.2;}</style>
+    <script>
+        function is_debug() {
+            return parseInt("{{debug}}");
+        }
+    </script>
+</head>
+
+<body id="{{ slug }}">
+<nav>
+<section>
+    <span class="home">
+        <a href="{{ base_path }}/">Home</a>
+    </span>
+    <span class="links">
+        <a href="{{ base_path }}/post/">Posts</a>
+        <a href="{{ base_path }}/about/">About</a>
+    </span>
+</section>
+</nav>
+
+<main>
+{{ content }}
+</main>
+<footer>
+<section>
+<p>&copy; {{ current_year }} {{ subtitle }}</p>
+</section>
+</footer>
+<!-- <link rel="stylesheet" type="text/css" href="{{ base_path }}/css/style.css" />
+</body>
+</html>
