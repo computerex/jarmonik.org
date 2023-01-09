@@ -57,6 +57,7 @@ That's very useful when landing on the Moon.<br><br>
 Manual of the 4.2.2 release may contain some helpful information that is not included in later manuals. Installation of 4.2.2 doesn't remove existing installations of new versions.<br> 
 <br> 
 <a href="https://orbiter-mods.com/mod/48">Download 5.7</a> (~1M) (for Orbiter 2016)<br>
+<a href="https://orbiter-mods.com/mod/49">Download 5.5</a> (~1M) (for Orbiter 2010)<br>
 
 <h2>D3D9Client</h2>
 Release Date 5-Aug-2021
